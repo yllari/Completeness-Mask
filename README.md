@@ -2,9 +2,12 @@
 Completeness estimates for Radial Velocity (RVS) in the IAC project for the study of galactic fomation
 
 Inside of the source/ folder:
+
 --complete_mask.py: File containing all necesary (and some extra functions). 
 To read and assign probabilites copy and paste 'sixd_prob_funct_aio' (aio stands for "all in one").
+
 --generate.py: minimal code to generate a 'fits' file containing the mask
+
 --test.py: Many tests to check that everything is working
 
 An example of plotted mask:
