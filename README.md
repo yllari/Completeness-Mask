@@ -15,9 +15,9 @@ An example of plotted mask:
   <img src="PDF/example.png" width=300/>
 </p>
 
-The probability is computed as the ratio (stars with radial vel)/all stars with a quality cut of d<=3.5 kpc.
-The domain of the probability matrix is included in the header of the fits file and represents
-magnitude-color-space(in healpxs). If no value is found in a certain direction (a given healpx), then
+The probability is computed as the ratio (stars with radial vel)/(all stars) with a quality cut of d<=3.5 kpc.
+The domain of the probability matrix is included in the header of the fits file for the
+magnitude-color-space (in healpxs). If no value is found in a certain direction (a given healpx), then
 the value is chosen from an all-sky mask, when this mask does not contain information, a 0 is assigned.
 
 Further explanation (spanish) <a href="PDF/Resumen.pdf" class="image fit">here</a>
